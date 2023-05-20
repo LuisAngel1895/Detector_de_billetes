@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Escaneo de Billetes Mexicanos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        #videoElement {
+            display: block;
+            margin: 0 auto;
+            width: 25%;
+            height: auto;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #result {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escaneo de Billetes Mexicanos</h1>
+    <video id="videoElement" playsinline width="100%"></video>
+    <h2>Valor del billete:</h2>
+    <p id="result"></p>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.min.js"></script>
+    <audio id="audioElement" controls></audio>
+
+    <script src="script2.js"></script>
+</body>
+</html>

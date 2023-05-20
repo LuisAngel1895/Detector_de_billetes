@@ -1,0 +1,24 @@
+{
+  "billetes": [
+    {
+      "valor": 20,
+      "atributos": ["color-azul", "tamaño-mediano"]
+    },
+    {
+      "valor": 50,
+      "atributos": ["color-roza", "tamaño-mediano"]
+    },
+    {
+      "valor": 100,
+      "atributos": ["color-amarillo", "tamaño-grande"]
+    },
+    {
+      "valor": 500,
+      "atributos": ["color-azul", "tamaño-grande"]
+    },
+    {
+      "valor": 1000,
+      "atributos": ["color-morado", "tamaño-grande"]
+    }
+  ]
+}
